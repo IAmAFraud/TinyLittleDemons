@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3604647259	MainMenu			\Default Work Unit\MainMenu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	189940341	MainMenuIntro	C:\Users\tjl20\Desktop\igme-320-project-2\IGME 320 Project 2\IGME 320 Project 2_WwiseProject\.cache\Windows\SFX\MainMenuIntro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MainMenuContainer\MainMenuIntro\MainMenuIntro		1693504
+	683877707	training_ground_ambient_vs1	C:\Users\tjl20\Desktop\igme-320-project-2\IGME 320 Project 2\IGME 320 Project 2_WwiseProject\.cache\Windows\SFX\MainMenuLoop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MainMenuContainer\MainMenuLoop\training_ground_ambient_vs1		10160704
+

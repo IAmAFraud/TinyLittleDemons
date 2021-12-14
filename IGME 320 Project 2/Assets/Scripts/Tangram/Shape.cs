@@ -63,6 +63,13 @@ public class Shape : MonoBehaviour
 
 			sprite.color = color;
 		}
+
+
+		
+		if (transform.position.x > 9 || transform.position.x < -9 || transform.position.y < -6 || transform.position.y > 6) 
+		{
+			transform.position = Vector3.zero;
+		}
 	}
 
 	/// <summary>

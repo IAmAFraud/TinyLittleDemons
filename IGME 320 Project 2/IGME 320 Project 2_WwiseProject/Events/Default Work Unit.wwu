@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C740C683-E6DB-4ABF-AF73-8314C15669F7}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C740C683-E6DB-4ABF-AF73-8314C15669F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="MainMenu" ID="{7400B624-9DB9-40C7-A4B0-379A5325D632}">
+					<ChildrenList>
+						<Action Name="" ID="{A34A2D70-8863-4CAD-8DA7-6D3B4904AFAB}" ShortID="110104946">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuContainer" ID="{D901B021-E61A-498C-AE63-B8D7238B9EC2}" WorkUnitID="{34F16216-C2CC-446F-A4D2-48F64FBE8959}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Store" ID="{316D1B33-C73B-41F9-B7A1-0CC7DC28400D}">
+					<ChildrenList>
+						<Action Name="" ID="{CECF5CAC-5E1D-4D46-BF8E-B1AF9B61EB7C}" ShortID="806548426">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StoreMusicContainer" ID="{E0AB02E9-D59A-4C20-8F42-EE979C89B2FA}" WorkUnitID="{34F16216-C2CC-446F-A4D2-48F64FBE8959}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tangram" ID="{87497B63-D97E-49EE-9C44-98017B3F5A84}">
+					<ChildrenList>
+						<Action Name="" ID="{17ED8D65-1A3C-4963-89CE-9537DC6FE9F2}" ShortID="187787231">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TangramContainer" ID="{1A92C45C-C2A8-466C-88B4-1BB5137AFD87}" WorkUnitID="{34F16216-C2CC-446F-A4D2-48F64FBE8959}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

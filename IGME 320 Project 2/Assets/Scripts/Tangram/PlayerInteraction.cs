@@ -16,6 +16,10 @@ public class PlayerInteraction : MonoBehaviour
     private bool holdingShape = false;
     private Shape currentShape;
 
+    // AudioManager Reference
+    [SerializeField] private GameObject audioManager;
+    private AudioManager audioScript;
+
     public bool HoldingShape
 	{
         get
@@ -24,6 +28,13 @@ public class PlayerInteraction : MonoBehaviour
 		}
 	}
 
+    /// <summary>
+    /// Sets up the audio manager
+    /// </summary>
+    void Awake()
+    {
+        audioScript = audioManager.GetComponent<AudioManager>();
+    }
 
     /// <summary>
     /// Checks if we have a current shape. If we do we update the shapes position and sometimes snap them.
@@ -71,12 +82,17 @@ public class PlayerInteraction : MonoBehaviour
             {
                 currentShape = result.collider.gameObject.GetComponent<Shape>();
                 currentShape.Held = true;
+                // Plays the appropriate audio file
+                audioScript.Play("TangramPickUp");
             }
         }
         else if (currentShape != null)
 		{
             currentShape.Held = false;
             currentShape = null;
+
+            // Plays the appropriate audio file
+            audioScript.Play("TangramPlace");
         }
     }
 

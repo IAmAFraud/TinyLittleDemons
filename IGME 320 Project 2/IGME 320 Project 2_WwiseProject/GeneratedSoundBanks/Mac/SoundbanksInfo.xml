@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\tjl20\Desktop\igme-320-project-2\IGME 320 Project 2\IGME 320 Project 2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\tjl20\Desktop\igme-320-project-2\IGME 320 Project 2\IGME 320 Project 2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\tjl20\Desktop\igme-320-project-2\IGME 320 Project 2\IGME 320 Project 2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\tjl20\Desktop\igme-320-project-2\IGME 320 Project 2\IGME 320 Project 2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="534561221" Language="SFX" Hash="3085368513">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundbank</ObjectPath>
+			<ShortName>MainSoundbank</ShortName>
+			<Path>MainSoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3604647259" Name="MainMenu" ObjectPath="\Events\Default Work Unit\MainMenu" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="189940341" Language="SFX">
+							<ShortName>MainMenuIntro.wav</ShortName>
+							<Path>SFX\MainMenuIntro_D79FB2B7.wem</Path>
+						</File>
+						<File Id="683877707" Language="SFX">
+							<ShortName>MainMenuLoop.wav</ShortName>
+							<Path>SFX\MainMenuLoop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="982030718" Language="SFX" Hash="3613058309">
+			<ObjectPath>\SoundBanks\Default Work Unit\TangramSoundbank</ObjectPath>
+			<ShortName>TangramSoundbank</ShortName>
+			<Path>TangramSoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2883839623" Name="Tangram" ObjectPath="\Events\Default Work Unit\Tangram" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="970340756" Language="SFX">
+							<ShortName>TangramLoop.wav</ShortName>
+							<Path>SFX\TangramLoop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3712408919">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3067980135" Language="SFX" Hash="629596277">
+			<ObjectPath>\SoundBanks\Default Work Unit\StoreSoundbank</ObjectPath>
+			<ShortName>StoreSoundbank</ShortName>
+			<Path>StoreSoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1686739432" Name="Store" ObjectPath="\Events\Default Work Unit\Store" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="113705210" Language="SFX">
+							<ShortName>ShopLoop.wav</ShortName>
+							<Path>SFX\ShopLoop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="374556728" Language="SFX">
+							<ShortName>ShopIntro.wav</ShortName>
+							<Path>SFX\ShopIntro_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

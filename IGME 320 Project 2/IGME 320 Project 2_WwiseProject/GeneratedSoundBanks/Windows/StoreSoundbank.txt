@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1686739432	Store			\Default Work Unit\Store	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	113705210	ShopLoop	C:\Users\tjl20\Desktop\igme-320-project-2\IGME 320 Project 2\IGME 320 Project 2_WwiseProject\.cache\Windows\SFX\ShopLoop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\StoreMusicContainer\StoreLoop\ShopLoop		7056064
+	374556728	ShopIntro	C:\Users\tjl20\Desktop\igme-320-project-2\IGME 320 Project 2\IGME 320 Project 2_WwiseProject\.cache\Windows\SFX\ShopIntro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\StoreMusicContainer\StoreIntro\ShopIntro		1411264
+

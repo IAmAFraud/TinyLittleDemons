@@ -17,7 +17,7 @@ public class CustomCursor : MonoBehaviour
     {
         Cursor.visible = false;
         sprRnd = GetComponent<SpriteRenderer>();
-        transform.position = new Vector3(0, 0, 99);
+        transform.position = new Vector3(0, 0, 99f);
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class CustomCursor : MonoBehaviour
     {
         Cursor.visible = false;
         Vector3 mousePos = Mouse.current.position.ReadValue();
-        transform.position = new Vector3(mainCamera.ScreenToWorldPoint(mousePos).x, mainCamera.ScreenToWorldPoint(mousePos).y, 99);
+        transform.position = new Vector3(mainCamera.ScreenToWorldPoint(mousePos).x, mainCamera.ScreenToWorldPoint(mousePos).y, 99f);
     }
 
     private void OnClick(InputValue val)

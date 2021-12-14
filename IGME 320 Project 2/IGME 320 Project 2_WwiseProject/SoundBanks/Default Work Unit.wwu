@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB18B2F3-2686-4BDB-B17D-F542ACE53279}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{CB18B2F3-2686-4BDB-B17D-F542ACE53279}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainSoundbank" ID="{9B8CD9C4-DC14-42E3-8510-06312D264499}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MainMenu" ID="{7400B624-9DB9-40C7-A4B0-379A5325D632}" WorkUnitID="{C740C683-E6DB-4ABF-AF73-8314C15669F7}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="StoreSoundbank" ID="{0B8FFD61-A16E-4B42-AE84-35BBB6F816B6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Store" ID="{316D1B33-C73B-41F9-B7A1-0CC7DC28400D}" WorkUnitID="{C740C683-E6DB-4ABF-AF73-8314C15669F7}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="TangramSoundbank" ID="{68B8F418-6C42-4FB9-87EC-C47F8A6DEB7C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Tangram" ID="{87497B63-D97E-49EE-9C44-98017B3F5A84}" WorkUnitID="{C740C683-E6DB-4ABF-AF73-8314C15669F7}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

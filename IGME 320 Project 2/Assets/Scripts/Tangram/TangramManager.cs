@@ -9,6 +9,8 @@ public class TangramManager : MonoBehaviour
 	[SerializeField] Boundary boundary;
 	[SerializeField] List<Shape> shapes;
 	[SerializeField] Camera cam;
+	[SerializeField] private SpriteRenderer cursorSprite;
+	[SerializeField] private Sprite thumbsUpSprite;
 
 	[Header("Shape Prefabs")]
 	[SerializeField] private GameObject squarePrefab;
@@ -34,6 +36,9 @@ public class TangramManager : MonoBehaviour
 
 	// Level Loading Variables
 	[SerializeField] LevelList levelList;
+
+	// Animator for the Transition Sheet
+	[SerializeField] Animator levelTransition;
 
 	private bool NoShapeOverlap()
 	{
@@ -74,10 +79,10 @@ public class TangramManager : MonoBehaviour
 	{
 		if (NoBoundaryHits() && AllShapesInDaBag() && NoShapeOverlap() && !loading)
 		{
-			levelList.CurrentLevel++;
-			SceneManager.LoadScene(2);
-			loading = true;
-			cam.backgroundColor = Color.green;
+			//cam.backgroundColor = Color.green;
+
+			cursorSprite.sprite = thumbsUpSprite;
+			StartCoroutine(OnAnimation());
 		}
 	}
 
@@ -200,5 +205,30 @@ public class TangramManager : MonoBehaviour
 			curShape.transform.parent = shapesObject.transform;
 			shapes.Add(shapeScript);
 		}
+	}
+
+
+	/// <summary>
+	/// Author: John Heiden
+	/// Performs an animation before moving from Tangram to Store
+	/// </summary>
+	/// <returns></returns>
+	IEnumerator OnAnimation()
+	{
+		yield return new WaitForSeconds(2);
+
+		levelTransition.SetBool("TransitionStarted", true);
+
+		yield return new WaitForSeconds(3);
+
+		while (levelTransition.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
+		{
+			yield return null;
+		}
+
+		levelList.CurrentLevel++;
+		SceneManager.LoadScene(2);
+		loading = true;
+		StopAllCoroutines();
 	}
 }
