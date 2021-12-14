@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdc83c526c54cb44cb0ffa298a78a629, type: 3}
+  m_Name: bootsLevel
+  m_EditorClassIdentifier: 
+  wallsPrefab: {fileID: 3985849825710550925, guid: 7639487d2826b124e99ba0b1d714f413, type: 3}
+  numSquares: 0
+  numSmallTris: 4
+  numBigTris: 2
+  numRightTrap: 0
+  numLeftTrap: 0
+  numRightParallel: 1
+  numLeftParallel: 1
