@@ -1,8 +1,2 @@
-# Sample GitLab Project
-
-This sample project shows how a project in GitLab looks for demonstration purposes. It contains issues, merge requests and Markdown files in many branches,
-named and filled with lorem ipsum.
-
-You can look around to get an idea how to structure your project and, when done, you can safely delete this project.
-
-[Learn more about creating GitLab projects.](https://docs.gitlab.com/ee/gitlab-basics/create-project.html)
+# Tiny Little Demons
+This is a project I completed as a team of 5 for a class. This game is a tangram-like game, set in the world of Ethshar. In this game, you are trying to complete the spells necessary to summon demons by filling in the shapes using the given components. There are around 10 levels, allowing you to get a sense of how the shapes can fit together and get you into the world.
